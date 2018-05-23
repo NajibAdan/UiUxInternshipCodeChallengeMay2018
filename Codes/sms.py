@@ -26,7 +26,7 @@ def main():
                 print '********************************************************************************'
             else:
                 print '*********************************************************************************'
-                print 'Message could not be delivered to the number' + x['number'] + 'because of ' + x['status']
+                print 'Message could not be delivered to the number' + x['number'] + ' because of ' + x['status']
                 print '*********************************************************************************'
     except ValueError as e:
         print e
